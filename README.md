@@ -17,7 +17,7 @@
 To install ComfyUI-Manager in addition to an existing installation of ComfyUI, you can follow the following steps:
 
 1. cd custom_nodes
-2. `git clone https://github.com/ltdrdata/ComfyUI-Manager.git`
+2. `git clone https://github.com/builtwithai/cuim.git`
 3. Restart ComfyUI
 
 
@@ -26,7 +26,7 @@ To install ComfyUI-Manager in addition to an existing installation of ComfyUI, y
 - https://git-scm.com/download/win
 - standalone version  
 - select option: use windows default console window
-2. Download [scripts/install-manager-for-portable-version.bat](https://github.com/ltdrdata/ComfyUI-Manager/raw/main/scripts/install-manager-for-portable-version.bat) into installed `"ComfyUI_windows_portable"` directory
+2. Download [scripts/install-manager-for-portable-version.bat](https://github.com/builtwithai/cuim/raw/main/scripts/install-manager-for-portable-version.bat) into installed `"ComfyUI_windows_portable"` directory
 3. double click `install-manager-for-portable-version.bat` batch file
 
 ![portable-install](misc/portable-install.png)
@@ -37,7 +37,7 @@ To install ComfyUI-Manager in addition to an existing installation of ComfyUI, y
 To install ComfyUI with ComfyUI-Manager on Linux using a venv environment, you can follow these steps:
 prerequisite: python-is-python3, python3-venv
 
-1. Download [scripts/install-comfyui-venv-linux.sh](https://github.com/ltdrdata/ComfyUI-Manager/raw/main/scripts/install-comfyui-venv-linux.sh) into empty install directory
+1. Download [scripts/install-comfyui-venv-linux.sh](https://github.com/builtwithai/cuim/raw/main/scripts/install-comfyui-venv-linux.sh) into empty install directory
 - ComfyUI will be installed in the subdirectory of the specified directory, and the directory will contain the generated executable script.
 2. `chmod +x install-comfyui-venv-linux.sh`
 3. `./install-comfyui-venv-linux.sh`
@@ -57,7 +57,7 @@ prerequisite: python-is-python3, python3-venv
 You can execute ComfyUI by running either `./run_gpu.sh` or `./run_cpu.sh` depending on your system configuration.
 
 ## Colab Notebook
-This repository provides Colab notebooks that allow you to install and use ComfyUI, including ComfyUI-Manager. To use ComfyUI, [click on this link](https://colab.research.google.com/github/ltdrdata/ComfyUI-Manager/blob/main/notebooks/comfyui_colab_with_manager.ipynb).
+This repository provides Colab notebooks that allow you to install and use ComfyUI, including ComfyUI-Manager. To use ComfyUI, [click on this link](https://colab.research.google.com/github/builtwithai/cuim/blob/main/notebooks/comfyui_colab_with_manager.ipynb).
 * Support for installing ComfyUI
 * Support for basic installation of ComfyUI-Manager
 * Support for automatically installing dependencies of custom nodes upon restarting Colab notebooks.
@@ -220,7 +220,7 @@ NODE_CLASS_MAPPINGS.update({
 ## Troubleshooting
 * If your `git.exe` is installed in a specific location other than system git, please install ComfyUI-Manager and run ComfyUI. Then, specify the path including the file name in `git_exe = ` in the ComfyUI-Manager/config.ini file that is generated.
 * If updating ComfyUI-Manager itself fails, please go to the **ComfyUI-Manager** directory and execute the command `git update-ref refs/remotes/origin/main a361cc1 && git fetch --all && git pull`.
- * Alternatively, download the update-fix.py script from [update-fix.py](https://github.com/ltdrdata/ComfyUI-Manager/raw/main/scripts/update-fix.py) and place it in the ComfyUI-Manager directory. Then, run it using your Python command.
+ * Alternatively, download the update-fix.py script from [update-fix.py](https://github.com/builtwithai/cuim/raw/main/scripts/update-fix.py) and place it in the ComfyUI-Manager directory. Then, run it using your Python command.
    For the portable version, use `..\..\..\python_embeded\python.exe update-fix.py`.
 * For cases where nodes like `PreviewTextNode` from `ComfyUI_Custom_Nodes_AlekPet` are only supported as front-end nodes, we currently do not provide missing nodes for them.
 * Currently, `vid2vid` is not being updated, causing compatibility issues.

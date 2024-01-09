@@ -3,7 +3,7 @@
         {
             "author": "#NOTICE_1.13",
             "title": "NOTICE: This channel is not the default channel.",
-            "reference": "https://github.com/ltdrdata/ComfyUI-Manager",
+            "reference": "https://github.com/builtwithai/cuim",
             "files": [],
             "install_type": "git-clone",
             "description": "If you see this message, your ComfyUI-Manager is outdated.\nRecent channel provides only the list of the latest nodes. If you want to find the complete node list, please go to the Default channel."

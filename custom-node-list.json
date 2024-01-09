@@ -3,9 +3,9 @@
         {
             "author": "Dr.Lt.Data",
             "title": "ComfyUI-Manager",
-            "reference": "https://github.com/ltdrdata/ComfyUI-Manager",
+            "reference": "https://github.com/builtwithai/cuim",
             "files": [
-                "https://github.com/ltdrdata/ComfyUI-Manager"
+                "https://github.com/builtwithai/cuim"
             ],
             "install_type": "git-clone",
             "description": "ComfyUI-Manager itself is also a custom node."
