@@ -1,6 +1,6 @@
 git clone https://github.com/comfyanonymous/ComfyUI
 cd ComfyUI/custom_nodes
-gh clone builtwithai/cuim ComfyUI-Manager
+gh repo clone builtwithai/cuim ComfyUI-Manager
 cd ..
 python -m venv venv
 source venv/bin/activate
