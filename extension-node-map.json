@@ -1411,7 +1411,7 @@
             "title_aux": "Allor Plugin"
         }
     ],
-    "https://github.com/Nuked88/ComfyUI-N-Nodes": [
+    "https://github.com/builtwithai/ComfyUI-N-Nodes": [
         [
             "DynamicPrompt",
             "Float Variable",
@@ -1420,7 +1420,7 @@
             "GPTSampler",
             "Integer Variable",
             "LoadFramesFromFolder",
-            "LoadVideo",
+            "LoadVideoN",
             "SaveVideo",
             "SetMetadataForSaveVideo",
             "String Variable"
