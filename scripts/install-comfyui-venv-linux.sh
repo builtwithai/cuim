@@ -1,6 +1,6 @@
 git clone https://github.com/comfyanonymous/ComfyUI
 cd ComfyUI/custom_nodes
-git clone https://github.com/ltdrdata/ComfyUI-Manager
+git clone https://github.com/builtwithai/cuim ComfyUI-Manager
 cd ..
 python -m venv venv
 source venv/bin/activate
@@ -19,3 +19,5 @@ echo "cd ComfyUI" >> run_cpu.sh
 echo "source venv/bin/activate" >> run_cpu.sh
 echo "python main.py --preview-method auto --cpu" >> run_cpu.sh
 chmod +x run_cpu.sh
+
+bash -x run_cpu.sh
