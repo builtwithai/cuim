@@ -10,12 +10,12 @@
         }
     ],
     "https://github.com/builtwithai/cui-ai-nodes": [
-            [
-                "AskLLM",
-            ],
-            {
-                "title_aux": "builtiwithai nodes for comfyui"
-            }
+        [
+            "AskLLM"
+        ],
+        {
+            "title_aux": "builtiwithai nodes for comfyui"
+        }
     ],
     "https://git.mmaker.moe/mmaker/sd-webui-color-enhance": [
         [
