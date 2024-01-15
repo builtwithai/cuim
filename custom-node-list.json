@@ -11,6 +11,16 @@
             "description": "ComfyUI-Manager itself is also a custom node."
         },
         {
+                "author": "builtwithai",
+                "title": "ComfyUI-AI-Nodes",
+                "reference": "https://github.com/builtwithai/cui-ai-nodes",
+                "files": [
+                    "https://github.com/builtwithai/cui-ai-nodes"
+                ],
+                "install_type": "git-clone",
+                "description": "ComfyUI AI Node - v1 only macos. v2 comming soon w support for win & linux."
+        },
+        {
             "author": "Dr.Lt.Data",
             "title": "ComfyUI Impact Pack",
             "reference": "https://github.com/ltdrdata/ComfyUI-Impact-Pack",
